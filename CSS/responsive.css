@@ -1,4 +1,5 @@
 @media screen and (max-width: 575.99px) {
+    /* navbar section start here */
     .hambarger-menu {
         color: white;
         font-size: 3rem;
@@ -10,7 +11,9 @@
     .fitness-menu {
         display: none;
     }
+    /* navbar section ends here */
 
+    /* header section start here */
     .banner-title {
         flex-direction: column;
         margin-left: 2rem;
@@ -31,9 +34,16 @@
         top: 28rem;
         left: -4rem;
     }
+    /* header section end here */
+
+    /* habit section start here */
+
     .card-cointainer {
         flex-direction: column;
     }
+    /* habit section ends here */
+
+    /* run section start here */
     .running-section {
         flex-direction: column;
         gap: 2rem;
@@ -41,8 +51,13 @@
     .join-btn {
         padding: 1.6rem 10.65rem;
     }
-    .BMI-section {
-        display: flex;
-        flex-direction: column;
+
+    /* run section ends here */
+
+    /* BMI section start here */
+    .BMI-account {
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
     }
+    /* BMI section ends here */
 }

@@ -206,6 +206,7 @@ body {
     font-size: 1.4rem;
 }
 /* habit section ends here */
+
 /* run section start here */
 .running-section {
     display: flex;
@@ -336,4 +337,13 @@ table td {
     background-color: #e6533c;
     border: none;
     margin-right: 1rem;
+}
+/* MI section ends here */
+
+/* Team section start here */
+.team-title {
+    color: white;
+    max-width: 140rem;
+    margin: 0 auto;
+    text-align: center;
 }
