@@ -1,0 +1,44 @@
+@media screen and (max-width: 575.99px) {
+    .hambarger-menu {
+        color: white;
+        font-size: 3rem;
+        display: block;
+    }
+    .fitness-cotainer {
+        justify-content: space-around;
+    }
+    .fitness-menu {
+        display: none;
+    }
+
+    .banner-title {
+        flex-direction: column;
+        margin-left: 2rem;
+        overflow: hidden;
+    }
+    .icon {
+        display: none;
+    }
+    .workout-videos {
+        top: 5rem;
+        left: 20rem;
+    }
+    .video-tutorial-tex {
+        top: 25rem;
+        left: -6rem;
+    }
+    .video-tutorial-btn {
+        top: 28rem;
+        left: -4rem;
+    }
+    .card-cointainer {
+        flex-direction: column;
+    }
+    .running-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .join-btn {
+        padding: 1.6rem 10.65rem;
+    }
+}
