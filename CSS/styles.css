@@ -206,6 +206,7 @@ body {
     font-size: 1.4rem;
 }
 /* habit section ends here */
+/* run section start here */
 .running-section {
     display: flex;
     justify-content: space-between;
@@ -247,4 +248,92 @@ body {
     height: 31.2rem;
     border-radius: 1.8rem;
     object-fit: cover;
+}
+/* run section ends here */
+
+/* BMI section start here */
+.BMI-title {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.BMI-title h3 {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4.8rem;
+}
+.BMI-title p,
+.BMI-calc p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+.BMI-account {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #222222;
+}
+.BMI-calc-chart {
+    margin-left: 18.9rem;
+    margin-top: 5rem;
+}
+.BMI-calc {
+    margin: 5rem 0;
+    width: 57.7rem;
+    height: 38.6rem;
+}
+
+.BMI-calc-chart h3,
+.BMI-calc h3 {
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 5.2rem;
+}
+table th {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 120%;
+    font-weight: 500;
+}
+table td {
+    font-size: 1.4rem;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+table th,
+table td {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 2rem;
+}
+.form-area form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.form-area form > input,
+.form-area form > select {
+    color: rgba(255, 255, 255, 0.25);
+    margin: 6px 0px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+.form-area form option {
+    background-color: rgba(17, 16, 16, 0.868);
+}
+.your-activity select {
+    width: 100%;
+}
+.form-area button {
+    padding: 1.6rem 4.65rem;
+    background: transparent;
+    color: white;
+    border-radius: 2.5rem;
+    background-color: #e6533c;
+    border: none;
+    margin-right: 1rem;
 }

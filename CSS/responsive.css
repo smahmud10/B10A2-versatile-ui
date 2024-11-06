@@ -41,4 +41,8 @@
     .join-btn {
         padding: 1.6rem 10.65rem;
     }
+    .BMI-section {
+        display: flex;
+        flex-direction: column;
+    }
 }
