@@ -55,9 +55,25 @@
     /* run section ends here */
 
     /* BMI section start here */
-    .BMI-account {
+    .BMI-content {
         grid-template-columns: repeat(1, 1fr);
-        overflow: hidden;
+        align-items: center;
+        /* overflow: hidden; */
     }
+    .BMI-calc-chart {
+        margin-left: 12rem;
+    }
+    .BMI-calc {
+        margin: 5rem auto;
+        width: 34.7rem;
+    }
+
     /* BMI section ends here */
+
+    .team-card-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-card {
+        filter: brightness(100%);
+    }
 }
