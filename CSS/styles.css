@@ -318,7 +318,7 @@ table td {
 .form-area form > select {
     color: rgba(255, 255, 255, 0.25);
     margin: 6px 0px;
-    font-size: 1rem;
+    font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.1);
     border: 0px;
     border-radius: 8px;
@@ -393,4 +393,46 @@ table td {
     transition: transform 0.5s;
     overflow: hidden;
     filter: brightness(100%);
+}
+/* Team section ends here */
+
+.footer-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    margin-top: 5rem;
+    padding: 2rem 19rem;
+}
+/* .footer-fit {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+} */
+.footer-fit h1 {
+    color: rgb(230, 83, 60);
+    font-size: 7rem;
+}
+.footer-fit p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.footer-container h3 {
+    color: white;
+    font-size: 3.2rem;
+}
+.footer-container li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem;
+    list-style: none;
+    padding: 0.8rem;
+}
+.site-rights {
+    font-size: 1.8rem;
+    margin: 0px 19rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 3.5rem 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
 }

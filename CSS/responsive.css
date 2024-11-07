@@ -76,4 +76,9 @@
     .team-card {
         filter: brightness(100%);
     }
+    /* Team section ends here */
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
 }
